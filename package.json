@@ -4,7 +4,8 @@
 	"description": "Input Web Components",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "webpack",
+		"build": "vite build",
+		"webpack:build": "webpack",
 		"build-dev": "webpack --mode=development",
 		"build-none": "webpack --mode=none"
 	},
@@ -15,8 +16,8 @@
 	"author": "Tzuyang Tsai",
 	"license": "Apache-2.0",
 	"devDependencies": {
+		"vite": "^6.4.1",
 		"webpack": "^5.74.0",
 		"webpack-cli": "^4.10.0"
-	},
-	"dependencies": {}
+	}
 }
